@@ -30,3 +30,16 @@ function enter3() {
 }
 
 exerciseRestBtn.addEventListener("click", enter3);
+
+var randomNumberBox = document.getElementById("random-number-box"),
+    randomNumberBtn = document.getElementById("random-number-btn"),
+    randomNumberResult = document.getElementById("randomNumberResult");
+
+function enter4() {
+    randomNumberResult.style.border = "1px solid blue";
+    randomNumberResult.innerHTML = randomNumberBox.value;
+}
+
+randomNumberBtn.addEventListener("click", enter4);
+
+

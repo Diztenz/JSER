@@ -1,0 +1,12 @@
+div{
+    border-radius: 5px;
+    width: 70%;
+    height: 600px;
+    margin:  50 auto;
+    background: repeating-linear-gradient(
+      80deg,
+      gray 0px,
+      white 40px,
+      gray 80px
+    );
+  }
